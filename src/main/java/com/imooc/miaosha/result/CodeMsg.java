@@ -50,6 +50,4 @@ public class CodeMsg {
 	public String toString() {
 		return "CodeMsg [code=" + code + ", msg=" + msg + "]";
 	}
-	
-	
 }

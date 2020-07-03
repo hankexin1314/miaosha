@@ -5,8 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Result<T> {
 
     private int code;
@@ -44,4 +42,5 @@ public class Result<T> {
             this.msg = codeMsg.getMsg();
         }
     }
+
 }
