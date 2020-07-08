@@ -24,9 +24,10 @@ public class GoodsService {
         return goodsDao.getGoodsVoByGoodsId(goodsId);
     }
 
-    public void reduceStock(GoodsVo goodsVo) {
-        MiaoshaGoods miaoshaGoods = new MiaoshaGoods();
-        miaoshaGoods.setGoodsId(goodsVo.getId());
-        goodsDao.reduceStock(miaoshaGoods);
+    public boolean reduceStock(GoodsVo goods) {
+        MiaoshaGoods g = new MiaoshaGoods();
+        g.setGoodsId(goods.getId());
+        int ret = goodsDao.reduceStock(g);
+        return ret > 0;
     }
 }

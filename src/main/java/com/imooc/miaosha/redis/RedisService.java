@@ -69,6 +69,21 @@ public class RedisService {
         }
     }
 
+    public boolean delete(KeyPrefix prefix, String key) {
+
+        Jedis jedis = null;
+        try {
+            jedis = jedisPool.getResource();
+            // 生成真正的key
+            String realKey = prefix.getPrefix() + key;
+            long ret = jedis.del(realKey);
+            return ret > 0;
+        }
+        finally {
+            returnToPool(jedis);
+        }
+    }
+
     public <T> Long incr(KeyPrefix prefix, String key) {
 
         Jedis jedis = null;
@@ -97,7 +112,7 @@ public class RedisService {
         }
     }
 
-    private <T> String beanToString(T value) {
+    public static <T> String beanToString(T value) {
 
         if(value == null) return null;
         Class<?> cls = value.getClass();
@@ -121,7 +136,7 @@ public class RedisService {
      * @return
      */
     @SuppressWarnings("all")
-    private <T> T strToBean(String value, Class<T> cls) {
+    public static <T> T strToBean(String value, Class<T> cls) {
 
         if(value == null || value.length() <= 0 || cls == null)
             return null;

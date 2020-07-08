@@ -12,6 +12,4 @@ public class GoodsVo extends Goods {
     private Date startDate;
     private Date endDate;
     private Double miaoshaPrice;
-
-
 }

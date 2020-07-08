@@ -18,10 +18,8 @@ import javax.servlet.http.HttpServletResponse;
 @Service
 public class UserArgumentResolver implements HandlerMethodArgumentResolver {
 
-
     @Autowired
     MiaoshaUserService miaoshaUserService;
-
 
     @Override
     public boolean supportsParameter(MethodParameter parameter) {
@@ -46,6 +44,7 @@ public class UserArgumentResolver implements HandlerMethodArgumentResolver {
 
     private String getCookieValue(HttpServletRequest request, String cookieName) {
         Cookie[] cookies = request.getCookies();
+        if(cookies == null) return null;
         for(Cookie cookie:cookies) {
             if(cookie.getName().equals(cookieName))
                 return cookie.getValue();
