@@ -6,6 +6,8 @@ import com.imooc.miaosha.domain.OrderInfo;
 import com.imooc.miaosha.rabbitmq.MQSender;
 import com.imooc.miaosha.rabbitmq.MiaoshaMessage;
 import com.imooc.miaosha.redis.GoodsKey;
+import com.imooc.miaosha.redis.MiaoshaKey;
+import com.imooc.miaosha.redis.OrderKey;
 import com.imooc.miaosha.redis.RedisService;
 import com.imooc.miaosha.result.CodeMsg;
 import com.imooc.miaosha.result.Result;
@@ -49,6 +51,21 @@ public class MiaoshaController implements InitializingBean {
 
     private Map<Long, Boolean> localOverMap = new HashMap<>();
 
+    @RequestMapping(value="/reset", method=RequestMethod.GET)
+    @ResponseBody
+    public Result<Boolean> reset(Model model) {
+        List<GoodsVo> goodsList = goodsService.listGoodsVo();
+        for(GoodsVo goods : goodsList) {
+            goods.setStockCount(10);
+            redisService.set(GoodsKey.getMiaoshaGoodsStock, ""+goods.getId(), 10);
+            localOverMap.put(goods.getId(), false);
+        }
+        redisService.delete(OrderKey.getMiaoshaOrderByUidGid);
+        redisService.delete(MiaoshaKey.isGoodsOver);
+        miaoshaService.reset(goodsList);
+        return Result.success(true);
+    }
+
     @RequestMapping(value = "/do_miaosha", method = RequestMethod.POST)
     @ResponseBody
     public Result<Integer> list(MiaoshaUser user,
@@ -57,11 +74,21 @@ public class MiaoshaController implements InitializingBean {
         if(user == null)
             return Result.error(CodeMsg.SESSION_ERROR);
 
-        localOverMap.get(goodsId);
+        boolean over = localOverMap.get(goodsId);
+        if(over) {
+            return Result.error(CodeMsg.MIAO_SHA_OVER);
+        }
         // 减库存 返回值是减少后的值
         long stock = redisService.decr(GoodsKey.getMiaoshaGoodsStock, "" + goodsId);
-        if(stock < 0)
+        if(stock < 0) {
+            localOverMap.put(goodsId, true);
             return Result.error(CodeMsg.MIAO_SHA_OVER);
+        }
+        //判断是否已经秒杀到了
+        MiaoshaOrder order = orderService.getMiaoshaOrderByUserIdGoodsId(user.getId(), goodsId);
+        if(order != null) {
+            return Result.error(CodeMsg.REPEATE_MIAOSHA);
+        }
         // 还有库存，入队
         MiaoshaMessage mm = new MiaoshaMessage();
         mm.setUser(user);

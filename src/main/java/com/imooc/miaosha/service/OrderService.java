@@ -51,6 +51,12 @@ public class OrderService {
         return orderInfo;
     }
 
+    public void deleteOrders() {
+        orderDao.deleteOrders();
+        orderDao.deleteMiaoshaOrders();
+    }
+
+
     public OrderInfo getOrderById(long orderId) {
         return orderDao.getOrderById(orderId);
     }

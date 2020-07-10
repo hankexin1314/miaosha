@@ -54,7 +54,7 @@ public class UserUtil {
 //		System.out.println("insert to db");
 		//登录，生成token
 		String urlString = "http://localhost/login/do_login";
-		File file = new File("E:/tokens.txt");
+		File file = new File("D:/tokens.txt");
 		if(file.exists()) {
 			file.delete();
 		}

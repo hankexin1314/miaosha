@@ -13,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 public class MiaoshaService {
 
@@ -46,6 +48,11 @@ public class MiaoshaService {
             if(isOver) return -1;
             else return 0;
         }
+    }
+
+    public void reset(List<GoodsVo> goodsList) {
+        goodsService.resetStock(goodsList);
+        orderService.deleteOrders();
     }
 
     private boolean getGoodsOver(long goodsId) {

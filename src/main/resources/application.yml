@@ -13,11 +13,11 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.0.100:3306/miaosha?serverTimezone=GMT%2B8
+    url: jdbc:mysql://10.249.96.27:3306/miaosha?serverTimezone=GMT%2B8
     username: root
     password: 7292183hkx
   redis:
-    host: 192.168.0.100
+    host: 10.249.96.27
     port: 6379
     timeout: 10
     password: root
@@ -35,7 +35,7 @@ spring:
       html-application-cache: true
     static-locations: classpath:/static/
   rabbitmq:
-    host: 192.168.0.100
+    host: 10.249.96.27
     port: 5672
     username: rabbitmq
     password: rabbitmq
