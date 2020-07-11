@@ -19,7 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a35fae8d-71fa-412f-988c-b1612fd0eee1" name="Default Changelist" comment="" />
+    <list default="true" id="a35fae8d-71fa-412f-988c-b1612fd0eee1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notes/图形验证码与恶意防刷.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/服务器优化.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/access/AccessInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/access/AccessLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/access/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/redis/AccessKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/03.登录功能.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/03.登录功能.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/06.接口优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/06.接口优化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/页面优化技术.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/页面优化技术.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/redis/MiaoshaKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/redis/MiaoshaKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/service/MiaoshaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/service/MiaoshaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/goods_detail.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/goods_detail.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/config/UserArgumentResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/config/UserArgumentResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/controller/MiaoshaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/controller/MiaoshaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/service/MiaoshaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/service/MiaoshaService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -153,8 +174,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserUtil" />
         <item itemvalue="Spring Boot.MiaoshaApplication" />
+        <item itemvalue="Application.UserUtil" />
         <item itemvalue="Application.Cat" />
         <item itemvalue="Application.MD5Util" />
         <item itemvalue="Application.LoginVo" />
@@ -215,6 +236,8 @@
       <workItem from="1594351317787" duration="2517000" />
       <workItem from="1594368508217" duration="2316000" />
       <workItem from="1594370920856" duration="2022000" />
+      <workItem from="1594385094299" duration="617000" />
+      <workItem from="1594430265136" duration="13266000" />
     </task>
     <servers />
   </component>
@@ -241,10 +264,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="984" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594351778081" />
-    <state x="765" y="225" width="670" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1594134426800">
+    <state x="765" y="225" width="670" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1594458227183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" width="670" height="590" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594134426800" />
+    <state x="765" y="225" width="670" height="590" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594458227183" />
     <state x="590" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593692554932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,38 +280,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594021392961" />
-    <state width="1877" height="219" key="GridCell.Tab.0.bottom" timestamp="1594372321304">
+    <state width="1877" height="254" key="GridCell.Tab.0.bottom" timestamp="1594458504383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594372321304" />
-    <state width="1877" height="219" key="GridCell.Tab.0.center" timestamp="1594372321303">
+    <state width="1877" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594458504383" />
+    <state width="1877" height="254" key="GridCell.Tab.0.center" timestamp="1594458504383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594372321303" />
-    <state width="1877" height="219" key="GridCell.Tab.0.left" timestamp="1594372321303">
+    <state width="1877" height="254" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594458504383" />
+    <state width="1877" height="254" key="GridCell.Tab.0.left" timestamp="1594458504383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594372321303" />
-    <state width="1877" height="219" key="GridCell.Tab.0.right" timestamp="1594372321303">
+    <state width="1877" height="254" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594458504383" />
+    <state width="1877" height="254" key="GridCell.Tab.0.right" timestamp="1594458504383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594372321303" />
-    <state width="1877" height="219" key="GridCell.Tab.1.bottom" timestamp="1594371936944">
+    <state width="1877" height="254" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594458504383" />
+    <state width="1877" height="254" key="GridCell.Tab.1.bottom" timestamp="1594458504383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594371936944" />
-    <state width="1877" height="219" key="GridCell.Tab.1.center" timestamp="1594371936944">
+    <state width="1877" height="254" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594458504383" />
+    <state width="1877" height="254" key="GridCell.Tab.1.center" timestamp="1594458504383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594371936944" />
-    <state width="1877" height="219" key="GridCell.Tab.1.left" timestamp="1594371936944">
+    <state width="1877" height="254" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594458504383" />
+    <state width="1877" height="254" key="GridCell.Tab.1.left" timestamp="1594458504383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594371936944" />
-    <state width="1877" height="219" key="GridCell.Tab.1.right" timestamp="1594371936944">
+    <state width="1877" height="254" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594458504383" />
+    <state width="1877" height="254" key="GridCell.Tab.1.right" timestamp="1594458504383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="219" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594371936944" />
+    <state width="1877" height="254" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594458504383" />
     <state width="1877" height="158" key="GridCell.Tab.2.bottom" timestamp="1594130543998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -317,18 +340,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="419" y="104" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592918714758" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594134416125">
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594458215394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594134416125" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594458215394" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1594018003004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594018003004" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1594371020013">
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1594431358728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594371020013" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594431358728" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
