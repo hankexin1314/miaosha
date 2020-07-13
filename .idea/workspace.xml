@@ -20,26 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a35fae8d-71fa-412f-988c-b1612fd0eee1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/图形验证码与恶意防刷.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/服务器优化.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/access/AccessInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/access/AccessLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/access/UserContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/redis/AccessKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/项目知识点.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/03.登录功能.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/03.登录功能.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/06.接口优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/06.接口优化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/页面优化技术.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/页面优化技术.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/config/UserArgumentResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/controller/MiaoshaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/redis/MiaoshaKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/redis/MiaoshaKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/service/MiaoshaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/miaosha/service/MiaoshaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/goods_detail.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/goods_detail.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/config/UserArgumentResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/config/UserArgumentResolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/controller/MiaoshaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/controller/MiaoshaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/service/MiaoshaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/miaosha/service/MiaoshaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/Cat.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,6 +222,8 @@
       <workItem from="1594370920856" duration="2022000" />
       <workItem from="1594385094299" duration="617000" />
       <workItem from="1594430265136" duration="13266000" />
+      <workItem from="1594520632730" duration="3096000" />
+      <workItem from="1594608095096" duration="3016000" />
     </task>
     <servers />
   </component>
