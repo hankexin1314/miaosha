@@ -26,9 +26,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 import java.io.OutputStream;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @Slf4j
@@ -77,6 +75,7 @@ public class MiaoshaController implements InitializingBean {
         // 判断是否登录
         if(user == null)
             return Result.error(CodeMsg.SESSION_ERROR);
+
         // 验证path
         boolean check = miaoshaService.checkPath(user, goodsId, path);
         if(!check){
