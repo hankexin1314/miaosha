@@ -1,11 +1,13 @@
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.zip.GZIPInputStream;
 
 public class Demo {
 
     public void mergeSort(int[] nums) {
 
         mergeSort(nums, 0, nums.length - 1);
+        new GZIPInputStream(new Fileo)
     }
 
     private void mergeSort(int[] nums, int l, int r) {
